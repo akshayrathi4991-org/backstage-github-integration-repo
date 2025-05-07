@@ -4,7 +4,7 @@ FROM node:18
 # Create app directory
 WORKDIR /usr/src/app
 
-# Copy package.json and install dependencies
+# Copy package.json and install dependenciess
 COPY package*.json ./
 RUN npm install
 
